@@ -11,3 +11,4 @@ Engineering leadership that puts AI to work.
 
 - [LinkedIn](https://www.linkedin.com/in/kkugot/)
 - [GitHub](https://github.com/kkugot)
+- [Book a meeting](https://cal.com/kkugot/meet)
