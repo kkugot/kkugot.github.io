@@ -1,0 +1,18 @@
+---
+layout: default
+title: Blog · Kostiantyn Kugot
+permalink: /blog/
+---
+<section class="blog-post">
+  <nav aria-label="Breadcrumb"><a href="{{ '/' | relative_url }}">← Kostiantyn Kugot</a></nav>
+  <h1>Blog</h1>
+  {% for post in site.posts %}
+  <article class="blog-entry">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%d %B %Y" }}</time>
+    <h2><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h2>
+    {{ post.excerpt }}
+  </article>
+  {% else %}
+  <p>The first post is on its way.</p>
+  {% endfor %}
+</section>

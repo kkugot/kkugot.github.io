@@ -114,3 +114,63 @@ a:focus-visible {
     max-width: 28rem;
   }
 }
+
+.blog-post {
+  max-width: 44rem;
+  margin-inline: auto;
+  overflow-wrap: anywhere;
+}
+
+.blog-post h1 {
+  margin-bottom: 1rem;
+  font: 400 clamp(2.5rem, 6vw, 4.5rem)/1.1 Georgia, serif;
+  letter-spacing: -0.035em;
+}
+
+.blog-post header {
+  margin-block: 2.5rem;
+}
+
+.blog-post time {
+  color: var(--muted);
+}
+
+.blog-post img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-block: 2rem;
+}
+
+.blog-post pre {
+  overflow-x: auto;
+  padding: 1rem;
+  border: 1px solid var(--rule);
+}
+
+.blog-post blockquote {
+  margin-inline: 0;
+  padding-left: 1.25rem;
+  border-left: 3px solid var(--accent);
+}
+
+.blog-post table {
+  display: block;
+  overflow-x: auto;
+  border-collapse: collapse;
+}
+
+.blog-post th,
+.blog-post td {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid var(--rule);
+}
+
+.blog-entry {
+  padding-block: 2rem;
+  border-top: 1px solid var(--rule);
+}
+
+.blog-entry h2 {
+  margin-top: 0.5rem;
+}

@@ -1,3 +1,4 @@
 lang: en
 exclude:
   - README.md
+permalink: /blog/:title/
